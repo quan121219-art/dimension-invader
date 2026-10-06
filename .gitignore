@@ -1,5 +1,6 @@
-# Build artifacts (uploaded as Release asset, not in repo)
-*.zip
+# Build zips are committed directly to the repo so clones get a
+# playable file list without needing Releases.
+# (ignore raw .exe / build directories, but allow packaged .zip)
 *.exe
 *.dll
 build/
